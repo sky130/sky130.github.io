@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://sky130.github.io</id>
     <title>Sky233</title>
-    <updated>2020-10-03T08:58:51.074Z</updated>
+    <updated>2020-10-03T09:24:50.187Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://sky130.github.io"/>
     <link rel="self" href="http://sky130.github.io/atom.xml"/>
@@ -10,4 +10,11 @@
     <logo>http://sky130.github.io/images/avatar.png</logo>
     <icon>http://sky130.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Sky233</rights>
+    <entry>
+        <title type="html"><![CDATA[这里就是一个blog噢噢]]></title>
+        <id>http://sky130.github.io/YHgPOLOsj/</id>
+        <link href="http://sky130.github.io/YHgPOLOsj/">
+        </link>
+        <updated>2020-10-03T09:24:19.000Z</updated>
+    </entry>
 </feed>
