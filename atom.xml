@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://sky130.github.io</id>
+    <id>http://sky233.ml</id>
     <title>Sky233</title>
-    <updated>2020-10-03T09:37:43.694Z</updated>
+    <updated>2020-10-04T01:44:38.308Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://sky130.github.io"/>
-    <link rel="self" href="http://sky130.github.io/atom.xml"/>
+    <link rel="alternate" href="http://sky233.ml"/>
+    <link rel="self" href="http://sky233.ml/atom.xml"/>
     <subtitle>我要做最璀璨的烟火，那么，你便不会忘记我</subtitle>
-    <logo>http://sky130.github.io/images/avatar.png</logo>
-    <icon>http://sky130.github.io/favicon.ico</icon>
+    <logo>http://sky233.ml/images/avatar.png</logo>
+    <icon>http://sky233.ml/favicon.ico</icon>
     <rights>All rights reserved 2020, Sky233</rights>
     <entry>
         <title type="html"><![CDATA[这里就是一个博客噢噢]]></title>
-        <id>http://sky130.github.io/YHgPOLOsj/</id>
-        <link href="http://sky130.github.io/YHgPOLOsj/">
+        <id>http://sky233.ml/YHgPOLOsj/</id>
+        <link href="http://sky233.ml/YHgPOLOsj/">
         </link>
         <updated>2020-10-03T09:24:19.000Z</updated>
     </entry>
