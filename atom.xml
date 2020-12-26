@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://sky233.ml</id>
     <title>Sky233</title>
-    <updated>2020-12-26T09:33:10.599Z</updated>
+    <updated>2020-12-26T09:37:22.733Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://sky233.ml"/>
     <link rel="self" href="http://sky233.ml/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>http://sky233.ml/favicon.ico</icon>
     <rights>All rights reserved 2020, Sky233</rights>
     <entry>
-        <title type="html"><![CDATA[安全交易平台工具V1.0_inside]]></title>
+        <title type="html"><![CDATA[安全教育平台工具V1.0_inside]]></title>
         <id>http://sky233.ml/safeapp/</id>
         <link href="http://sky233.ml/safeapp/">
         </link>
