@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <title>Sky233</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
-    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
     <link rel="stylesheet" href="/media/css/index.css">
-    <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
+    <link rel="stylesheet" href="/media/live2d/css/live2d.css">
     
     <style>
         #centerbg{
@@ -18,8 +16,8 @@
         }
     </style>
 </head>
-<body class=" mdui-loaded">
-<header class="mdui-toolbar mdui-color-theme mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide" style="z-index: 1000">
+<body class="mdui-loaded">
+<header class="mdui-toolbar mdui-color-theme mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide mdui-headroom mdui-headroom-pinned-toolbar" style="z-index: 1000">
     <a href="javascript:;" mdui-drawer="{target: '#left-drawer',overlay:true}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
     <span class="mdui-typo-title">Sky233</span>
     <div class="mdui-toolbar-spacer"></div>
@@ -65,7 +63,7 @@
 </div>
 
 <div class="headertop filter-grid" style="height: auto">
-    <figure id="centerbg" class="centerbg" style="">
+    <figure id="centerbg" class="centerbg" style="height: 698px;">
         <div class="focusinfo">
             <div class="header-tou">
                 <a href=">">
@@ -121,30 +119,14 @@
             
     <div class="mdui-card">
         <div class="mdui-card-media">
-            <img src="http://sky233.ml/post-images/safeapp.png"/>
-            <div class="mdui-card-media-covered">
-                <div class="mdui-card-primary">
-                    <div class="mdui-card-primary-title">安全教育平台工具V1.0_inside</div>
-                    <div class="mdui-card-primary-subtitle"></div>
-                </div>
-                <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://sky233.ml/safeapp/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="head_card-offset"></div>
-
-    <div class="mdui-card">
-        <div class="mdui-card-media">
-            <img src="http://sky233.ml/post-images/YHgPOLOsj.jpg"/>
+            <img src="http://localhost:4000/post-images/YHgPOLOsj.jpg">
             <div class="mdui-card-media-covered">
                 <div class="mdui-card-primary">
                     <div class="mdui-card-primary-title">这里就是一个博客噢噢</div>
                     <div class="mdui-card-primary-subtitle"></div>
                 </div>
                 <div class="mdui-card-actions" style="float:right;">
-                    <a href="http://sky233.ml/YHgPOLOsj/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
+                    <a href="http://localhost:4000/YHgPOLOsj/" class="mdui-btn mdui-ripple mdui-ripple-white">点击查看</a>
                 </div>
             </div>
         </div>
@@ -162,30 +144,33 @@
     
 
     <div class="site-info">
-        Powered by <a href="sky233.ml" target="_blank">Sky233</a>
+        <div class="mdui-chip">
+  <img class="mdui-chip-icon" src=" sky233.ml/images/friends_2.png">
+  <span class="mdui-chip-title">Example Chip</span>
+</div>
     </div>
 </footer>
-<div id="landlord" style="left:5px;bottom:0px;">
-    <div class="message" style="opacity:0"></div>
+<div id="landlord" style="left: 5px; bottom: 0px; display: block;">
+    <div class="message" style="opacity: 1;">你回来啦~</div>
     <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
     <div class="live_talk_input_body">
         <div class="live_talk_input_name_body">
-            <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字" />
+            <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off" placeholder="你的名字">
         </div>
         <div class="live_talk_input_text_body">
-            <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？"/>
+            <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off" placeholder="要和我聊什么呀？">
             <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
         </div>
     </div>
-    <input name="live_talk" id="live_talk" value="1" type="hidden" />
+    <input name="live_talk" id="live_talk" value="3" type="hidden">
     <div class="live_ico_box">
-        <div class="live_ico_item type_info" id="showInfoBtn"></div>
-        <div class="live_ico_item type_talk" id="showTalkBtn"></div>
+        <div class="live_ico_item type_info" id="showInfoBtn" style="display: none;"></div>
+        <div class="live_ico_item type_talk" id="showTalkBtn" style="display: none;"></div>
         <div class="live_ico_item type_music" id="musicButton"></div>
         <div class="live_ico_item type_youdu" id="youduButton"></div>
         <div class="live_ico_item type_quit" id="hideButton"></div>
-        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
-        <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
+        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden">
+        <audio src="https://img.apa70.com/123.mp3" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
         <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
         <input name="live2dBGM" value="https://img.apa70.com/123.mp3" type="hidden">
         <input id="duType" value="douqilai,l2d_caihong" type="hidden">
@@ -201,7 +186,8 @@
 <script type="text/javascript" src="/media/live2d/js/live2d.js"></script>
 <script type="text/javascript" src="/media/live2d/js/message.js"></script>
 
-</body>
+
 <script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
 <script src="/media/js/index.js"></script>
-</html>
+
+</body></html>
