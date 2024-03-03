@@ -3,6 +3,41 @@ body {
     text-align: left;
 }
 
+@media screen and (max-width:1200px) {
+    .content {
+        padding-top: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 10%;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-gap: 20px;
+    }
+
+}
+
+
+@media screen and (max-width:750px) {
+    .content {
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-gap: 20px;
+    }
+}
+
+
+
+
 .round-img {
     border-radius: 50%;
 }
@@ -40,14 +75,6 @@ body {
     font-size: 25px;
     font-weight: 400;
     /* 设置 h1 字体大小 */
-}
-
-.wrapper {
-    display: grid;
-    /*  声明列的宽度  */
-    grid-template-columns: repeat(2, 50%);
-    /*  声明行间距和列间距  */
-    grid-gap: 20px;
 }
 
 
