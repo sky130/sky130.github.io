@@ -45,7 +45,13 @@ body {
 .sub-title {
     color: rgba(0, 0, 0, 0.5);
     font-size: 25px;
+    margin: 0;
     /* 设置 h1 字体大小 */
+    font-family: "MiSans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
 }
 
 * {
@@ -67,6 +73,7 @@ body {
 .card-title {
     color: #FFFFFF;
     font-size: 35px;
+    font-family: "MiSans", sans-serif;
     /* 设置 h1 字体大小 */
 }
 
@@ -79,16 +86,23 @@ body {
 
 
 .josefin-sans-font {
+
+    background-image: linear-gradient(to right, #000000, #003CFF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 0;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 60px;
+    font-size: 80px;
+
     /* 设置 h1 字体大小 */
 }
 
 .item-title {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "MiSans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
