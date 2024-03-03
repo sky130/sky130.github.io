@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.round-img {
+    border-radius: 50%;
+}
+
+.sub-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    /* 设置 h1 字体大小 */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 25px;
+    /* 圆角设置为 10px */
+    background-color: #f1f1f1;
+    /* 背景颜色设置为浅灰色 */
+    box-shadow: none;
+    /* 取消阴影 */
+    box-sizing: content-box;
+}
+
+.card-title {
+    color: #FFFFFF;
+    font-size: 35px;
+    /* 设置 h1 字体大小 */
+}
+
+.card-sub-title {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 25px;
+    font-weight: 400;
+    /* 设置 h1 字体大小 */
+}
+
+.wrapper {
+    display: grid;
+    /*  声明列的宽度  */
+    grid-template-columns: repeat(2, 50%);
+    /*  声明行间距和列间距  */
+    grid-gap: 20px;
+}
+
+
+.josefin-sans-font {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    /* 设置 h1 字体大小 */
+}
+
+.item-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    /* 设置 h1 字体大小 */
+}
